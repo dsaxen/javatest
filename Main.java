@@ -7,14 +7,14 @@ public class Main {
         Initialize the first two values of the fibonacci sequence
         The sequence starts with 1,1..
          */
-	    int number1 = 1;
-	    int number2 = 1;
+	int number1 = 1;
+	int number2 = 1;
 
-	    int total;
+	int total;
 
         System.out.println();
 
-	    for(int i = 0; i < 42; i++){ //loop 42 times (the meaning of life)
+	for(int i = 0; i < 42; i++){ //loop 42 times (the meaning of life)
 
             total = number1 + number2; //fibonacci definition
 
